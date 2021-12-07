@@ -1,0 +1,27 @@
+{
+  "name": "svanim",
+  "version": "0.1.0",
+  "description": "Animation utilities for svelte/motion stores.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolai-cc/svanim"
+  },
+  "author": {
+    "name": "nikolai-cc",
+    "url": "https://github.com/nikolai-cc"
+  },
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "publish": "npm publish ./package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.44.0"
+  },
+  "type": "module"
+}
