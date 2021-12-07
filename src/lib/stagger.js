@@ -12,6 +12,8 @@ export let stagger = (frames, config = {}) => {
 	}
 	
 	let play = () => {
+		tl = [];
+		time = 0;
 		frames.forEach(({ s, to, options }) => {
 			let f = setTimeout(() => s.set(to, options), time)
             time += delay

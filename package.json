@@ -1,6 +1,6 @@
 {
   "name": "svanim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Animation utilities for svelte/motion stores.",
   "license": "MIT",
   "repository": {
@@ -21,7 +21,9 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "svelte": "^3.44.0"
+    "svelte": "^3.44.0",
+    "svelte2tsx": "^0.4.10",
+    "typescript": "^4.5.2"
   },
   "type": "module"
 }
